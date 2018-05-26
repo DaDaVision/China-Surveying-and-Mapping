@@ -1,4 +1,5 @@
 package com.example.mine.mapping.activity;
+//test
 
 import android.app.Activity;
 import android.content.Intent;
