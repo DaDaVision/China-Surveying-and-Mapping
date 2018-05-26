@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/device_list_include"
+        layout="@layout/title_layout"
+        ></include>
+    <ListView
+        android:layout_marginTop="10dp"
+        android:id="@+id/devicce_listview"
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+    </ListView>
+    <Button
+        android:id="@+id/dl_bt_tjsb"
+        android:text="添加设备"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:theme="@style/btn_style"
+        android:background="@drawable/btn_bg_round"
+        android:layout_width="300dp"
+        android:layout_height="50dp" />
+</LinearLayout>

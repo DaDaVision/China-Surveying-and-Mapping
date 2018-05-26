@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include
+        android:id="@+id/include5"
+        layout="@layout/title_layout"
+        ></include>
+    <lecho.lib.hellocharts.view.LineChartView
+        android:layout_marginTop="20dp"
+        android:id="@+id/line_chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+    <Button
+        android:id="@+id/picture_bt"
+        android:layout_width="300dp"
+
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg_round"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:text="生成测试报表"/>
+
+
+</LinearLayout>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#ebedee"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:background="#ebedee"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="match_parent">
+                <TextView
+                    android:background="#ffffff"
+                    android:id="@+id/st_tv_grxx"
+                    android:textColor="#000000"
+                    android:text="个人信息"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="8dp"
+                    android:drawableRight="@drawable/setting_open"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp" />
+            </LinearLayout>
+
+
+
+
+            <TextView
+                android:id="@+id/st_tv_xgmm"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="修改密码"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/st_tv_ckd"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="参考点"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+            <TextView
+                android:id="@+id/st_tv_lsjlgl"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="历史记录管理"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+            <TextView
+                android:id="@+id/st_tv_bdccss"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="本地储存设置"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/st_tv_jtckd"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="静态参考点"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+
+            <TextView
+                android:layout_marginTop="30dp"
+                android:id="@+id/st_tv_sb"
+                android:background="#ffffff"
+                android:textColor="#000000"
+                android:text="设备"
+                android:drawableRight="@drawable/setting_open"
+                android:textSize="18sp"
+                android:gravity="center_vertical"
+                android:paddingLeft="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

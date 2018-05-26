@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/bt_ljlysb"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:theme="@style/btn_style"
+        android:background="@drawable/btn_bg_round"
+        android:text="连接蓝牙设备" />
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/bt_qidong"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:theme="@style/btn_style"
+        android:background="@drawable/btn_bg_round"
+        android:text="启动" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@drawable/btn_bg_round"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/cb_yinpin"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="音频"
+                />
+            <CheckBox
+                android:id="@+id/cb_shijue"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="视觉"
+                />
+            <CheckBox
+                android:id="@+id/cb_guangyuan"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="光源"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <CheckBox
+                android:id="@+id/cb_lanya"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="蓝牙"
+                />
+            <CheckBox
+                android:id="@+id/cb_5g"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="5G"
+                />
+            <CheckBox
+                android:id="@+id/cb_wifi"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="WiFi"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/rg1"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_bg_round"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_jingtai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="静态" />
+
+            <RadioButton
+                android:id="@+id/rb_dongtai"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="动态" />
+
+        </RadioGroup>
+    <Spinner
+        android:id="@+id/spinner"
+        android:background="@drawable/btn_bg_round"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="30dp">
+    </Spinner>
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_bg_round"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_dianci"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="电磁" />
+
+        <RadioButton
+            android:id="@+id/rb_renwei"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="人为" />
+
+        <RadioButton
+            android:id="@+id/rb_zuaiwu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="阻碍物" />
+
+    </RadioGroup>
+
+    <!--<Button
+        android:id="@+id/bt_st"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:theme="@style/btn_style"
+        android:background="@drawable/btn_bg_round"
+        android:text="开始测试" />-->
+
+    <Button
+        android:id="@+id/bt_st"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:theme="@style/btn_style"
+        android:background="@drawable/btn_bg_round"
+        android:text="开始测试" />
+
+</LinearLayout>

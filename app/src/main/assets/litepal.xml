@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="mapping"></dbname>
+    <version value="2"></version>
+    <list>
+        <mapping class="com.example.mine.mapping.db_table.HistoryTable"></mapping>
+        <mapping class="com.example.mine.mapping.db_table.Control"></mapping>
+        <mapping class="com.example.mine.mapping.db_table.Datas"></mapping>
+        <mapping class="com.example.mine.mapping.db_table.AnalysisResult"></mapping>
+        <mapping class="com.example.mine.mapping.db_table.Devices"></mapping>
+        <mapping class="com.example.mine.mapping.db_table.ReferencePoint"></mapping>
+
+    </list>
+</litepal>

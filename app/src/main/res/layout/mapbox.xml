@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/include4"
+        layout="@layout/title_layout"
+        ></include>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="22">
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="6"
+        android:orientation="vertical"
+        android:layout_height="35dp">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mb_bt_daochu"
+                android:text="导出测试数据"
+                android:background="@drawable/btn_bg_round"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mb_bt_qxt"
+                android:text="曲线图"
+                android:background="@drawable/btn_bg_round"
+                android:layout_height="50dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mb_bt_csjg"
+                android:text="测试结果"
+                android:background="@drawable/btn_bg_round"
+                android:layout_height="50dp" />
+            <Button
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/mb_bt_tbsj"
+                android:text="同步时间"
+                android:background="@drawable/btn_bg_round"
+                android:layout_height="50dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

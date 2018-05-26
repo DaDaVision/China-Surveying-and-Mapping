@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mine.mapping">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 获取WIFI信息状态的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取网络状态改变的权限 -->
+
+    <application
+        android:name="org.litepal.LitePalApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/test_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.User"
+            android:label="个人中心"/>
+        <activity android:name=".activity.Open_Off_Udp"
+            android:label="个人中心"/>
+        <activity android:name=".activity.Register"
+            android:label="用户注册"/>
+        <activity android:name=".activity.Resetpwd"
+            android:label="密码修改"></activity>
+        <activity android:name=".activity.Picture"
+            android:label="绘图"></activity>
+        <activity android:name=".activity.Report"
+            android:label="生成报表"></activity>
+        <activity android:name=".activity.MainMenu"
+            android:label="主菜单"></activity>
+        <activity android:name=".activity.BuleToothDeviceListActivity"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="主菜单"></activity>
+        <activity android:name="com.example.mine.mapping.activity.MapBox"
+            android:label="地图界面"></activity>
+        <activity android:name="com.example.mine.mapping.activity.PointList"
+            android:label="参考点列表"></activity>
+        <activity android:name="com.example.mine.mapping.activity.DeviceList"
+            android:label="开关设备列表"></activity>
+    </application>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+</manifest>
